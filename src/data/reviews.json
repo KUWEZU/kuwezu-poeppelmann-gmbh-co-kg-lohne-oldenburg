@@ -1,1 +1,39 @@
-{"averageRating":null,"totalCount":0,"source":"Google","fetchedAt":"","reviews":[]}
+{
+  "averageRating": 3.5,
+  "totalCount": 94,
+  "source": "Google",
+  "fetchedAt": "2026-07-15T16:16:06.560Z",
+  "reviews": [
+    {
+      "author": "Stephan Christensen",
+      "rating": 2,
+      "text": "Produkt ok, aber ACHTUNG: horrende (!!) Lieferkosten, die im Angebot nicht aufgeführt sind. Dort lediglich ein kleingedruckter Hinweis auf Incoterms (unverpackt ab Werk). Sowas geht haarscharf an betrügerischer Absicht vorbei!",
+      "date": "vor 5 Jahren"
+    },
+    {
+      "author": "S. F.",
+      "rating": 5,
+      "text": "Sehr netter und höflicher E-Mail Kontakt.  Mitarbeiter sehr Lösungsorientiert, halten ihr Versprechen und sind schnell mit Antworten etc.\n\nVielen Dank.",
+      "date": "vor 3 Jahren"
+    },
+    {
+      "author": "Perdita-Celena Zak",
+      "rating": 5,
+      "text": "freundliche Mitarbeiter und chefs gutes Geld ab und zu kleine Firmengeschenke  alles in allem sehr gut",
+      "date": "vor 8 Jahren"
+    },
+    {
+      "author": "Einstein .777",
+      "rating": 1,
+      "text": "Man, kann nicht be dienen schlafen 👎👎",
+      "date": "vor 2 Jahren"
+    },
+    {
+      "author": "Sebastian S",
+      "rating": 5,
+      "text": "Gute Umgang mit Kunden und Excellente technische umsätzung",
+      "date": "vor 7 Jahren"
+    }
+  ],
+  "_debug": "gmb-import"
+}
