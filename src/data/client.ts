@@ -1,6 +1,6 @@
 /**
  * client.ts — Automatisch generiert von KUWEZU
- * Erstellt: 2026-07-18T19:31:40.202Z
+ * Erstellt: 2026-07-18T22:24:36.957Z
  * Kundennummer: 242
  *
  * Alle Texte, Bilder und Einstellungen werden hier gepflegt.
@@ -28,7 +28,7 @@ export const client = {
   },
   // ── Hero ───────────────────────────────────────────────────────────────────
   hero: {
-    bild: "https://r2.kuwezu.de/kunden/242/hero.webp",
+    bild: "https://r2.kuwezu.de/kunden/242/1784402808924-lkw_reparatur_in_einer_werkstatt.png",
     overlayOpacity: 0.55, /* fix — nie schwächer, nie überschreibbar */
     ueberschrift: "Autowerkstatt — professionell & zuverlässig",
     ueberschriftHighlight: "professionell & zuverlässig",
@@ -39,7 +39,7 @@ export const client = {
 
   // ── Über uns ───────────────────────────────────────────────────────────────
   ueberUns: {
-    bild: "https://r2.kuwezu.de/kunden/242/ueber-uns.webp",
+    bild: "https://r2.kuwezu.de/kunden/242/1784403283731-wohnmobile.jpg",
     ueberschrift: "Pöppelmann GmbH & Co. KG — Ihr Partner in Lohne (Oldenburg)",
     text1: "Test 123",
     text2: "",
