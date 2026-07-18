@@ -1,6 +1,6 @@
 /**
  * client.ts — Automatisch generiert von KUWEZU
- * Erstellt: 2026-07-15T16:20:09.855Z
+ * Erstellt: 2026-07-18T19:15:58.648Z
  * Kundennummer: 242
  *
  * Alle Texte, Bilder und Einstellungen werden hier gepflegt.
@@ -11,7 +11,7 @@ export const client = {
   name: "Pöppelmann GmbH & Co. KG",
   branche: "Autowerkstatt",
   ort: "Lohne (Oldenburg)",
-  slogan: "Lohne (Oldenburg)",
+  slogan: "professionell & zuverlässig",
   adresse: "Bakumer Straße 73, 49393 Lohne (Oldenburg)",
   maps_url: "https://maps.google.com/?cid=5489734436154549423&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
   telefon: "04442 9820",
@@ -30,9 +30,9 @@ export const client = {
   hero: {
     bild: "https://r2.kuwezu.de/kunden/242/hero.webp",
     overlayOpacity: 0.55, /* fix — nie schwächer, nie überschreibbar */
-    ueberschrift: "Ihre Autowerkstatt Pöppelmann in Lohne (Oldenburg)",
-    ueberschriftHighlight: "Lohne (Oldenburg)",
-    untertext: "Ihre Autowerkstatt in Lohne: Meisterqualität bei Reparatur, Wartung und TÜV – zuverlässig und termingerecht.",
+    ueberschrift: "Autowerkstatt — professionell & zuverlässig",
+    ueberschriftHighlight: "professionell & zuverlässig",
+    untertext: "Ihr Partner für alle Belange rund um Autowerkstatt in Lohne (Oldenburg) und Umgebung.",
     ctaPrimary: { text: "Termin vereinbaren", href: "#kontakt" },
     ctaSecondary: { text: "Leistungen ansehen", href: "#leistungen" },
   },
@@ -41,8 +41,8 @@ export const client = {
   ueberUns: {
     bild: "https://r2.kuwezu.de/kunden/242/ueber-uns.webp",
     ueberschrift: "Pöppelmann GmbH & Co. KG — Ihr Partner in Lohne (Oldenburg)",
-    text1: "Als Ihre Autowerkstatt in Lohne (Oldenburg) steht die Pöppelmann GmbH & Co. KG seit vielen Jahren für zuverlässige Kfz-Technik auf höchstem Niveau. Unser erfahrenes Team kümmert sich mit Fachwissen und Leidenschaft um Wartung, Reparatur und Instandsetzung Ihres Fahrzeugs – marken- und modellübergreifend. Wir setzen auf modernste Diagnosetechnik, transparente Beratung und fairen Service, damit Sie sich jederzeit auf Ihr Auto verlassen können. Vertrauen Sie auf unsere Erfahrung und lokale Verwurzelung in Lohne, wenn es um die Sicherheit und Mobilität Ihres Fahrzeugs geht.",
-    text2: "",
+    text1: "Als erfahrener Autowerkstatt-Betrieb in Lohne (Oldenburg) bieten wir unseren Kunden seit Jahren zuverlässigen Service und kompetente Beratung. Mit Fachkompetenz und modernen Methoden lösen wir Ihre Anliegen effizient und zuverlässig.",
+    text2: "Wir setzen auf höchste Qualität, transparente Preise und persönlichen Service — damit Sie rundum zufrieden sind.",
     tags: ["Qualität", "Zuverlässigkeit", "Faire Preise", "Erfahrung"],
     stats: [
       { value: "1+", label: "Jahre Erfahrung" },
@@ -111,10 +111,16 @@ export const client = {
   },
 
   // ── WhatsApp ───────────────────────────────────────────────────────────────
-  whatsapp: "+49 17621575303" as string,
+  whatsapp: "" as string,
 
   // ── Features ───────────────────────────────────────────────────────────────
   newsEnabled: false as boolean,
+
+  // ── Impressum / Rechtsangaben (Migration 095) ───────────────────────────────
+  impressum: {} as {
+    inhaber?: string; rechtsform?: string; ust_id?: string; handelsregister?: string;
+    registergericht?: string; aufsichtsbehoerde?: string; verantwortlicher?: string;
+  },
 } as const;
 
 export type LeistungConfig = (typeof client.leistungen)[number];

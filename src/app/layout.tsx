@@ -11,13 +11,18 @@ const geistSans = Geist({
 });
 
 export const metadata: Metadata = {
-  title: "Autowerkstatt Lohne (Oldenburg) | Pöppelmann GmbH & Co. KG",
-  description: "Pöppelmann GmbH & Co. KG – Ihre Autowerkstatt in Lohne (Oldenburg). Kfz-Reparatur, Wartung & Inspektion vom Profi. Jetzt Termin vereinbaren!",
+  title: "Pöppelmann GmbH & Co. KG | Autowerkstatt in Lohne (Oldenburg)",
+  description: "Pöppelmann GmbH & Co. KG in Lohne (Oldenburg) — Ihr Experte für Autoglas, Elektroautos, Bremsen und mehr. Jetzt Termin vereinbaren!",
   openGraph: {
-    title: "Autowerkstatt Lohne (Oldenburg) | Pöppelmann GmbH & Co. KG",
-    description: "Pöppelmann GmbH & Co. KG – Ihre Autowerkstatt in Lohne (Oldenburg). Kfz-Reparatur, Wartung & Inspektion vom Profi. Jetzt Termin vereinbaren!",
+    title: "Pöppelmann GmbH & Co. KG | Autowerkstatt in Lohne (Oldenburg)",
+    description: "Pöppelmann GmbH & Co. KG in Lohne (Oldenburg) — Ihr Experte für Autoglas, Elektroautos, Bremsen und mehr. Jetzt Termin vereinbaren!",
     type: "website",
     locale: "de_DE",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Pöppelmann GmbH & Co. KG | Autowerkstatt in Lohne (Oldenburg)",
+    description: "Pöppelmann GmbH & Co. KG in Lohne (Oldenburg) — Ihr Experte für Autoglas, Elektroautos, Bremsen und mehr. Jetzt Termin vereinbaren!",
   },
   icons: {
     icon: [{ url: "https://r2.kuwezu.de/konzepte/autofit/autofit_logo.webp" }],
