@@ -1,6 +1,6 @@
 /**
  * client.ts — Automatisch generiert von KUWEZU
- * Erstellt: 2026-07-19T15:44:21.205Z
+ * Erstellt: 2026-07-19T17:36:01.930Z
  * Kundennummer: 242
  *
  * Alle Texte, Bilder und Einstellungen werden hier gepflegt.
@@ -17,8 +17,8 @@ export const client = {
   telefon: "04442 9820",
   email: "",
   website: "",
-  logo: "https://r2.kuwezu.de/konzepte/autofit/autofit_logo.webp",
-  standort_bild: "https://r2.kuwezu.de/kunden/242/standort.webp",
+  logo: "https://r2.kuwezu.de/cdn-cgi/image/width=320,fit=contain,quality=78,format=auto/konzepte/autofit/autofit_logo.webp",
+  standort_bild: "https://r2.kuwezu.de/cdn-cgi/image/width=1024,fit=cover,quality=78,format=auto/kunden/242/standort.webp",
 
   // ── Branding ───────────────────────────────────────────────────────────────
   farben: {
@@ -28,7 +28,9 @@ export const client = {
   },
   // ── Hero ───────────────────────────────────────────────────────────────────
   hero: {
-    bild: "https://r2.kuwezu.de/kunden/242/1784402808924-lkw_reparatur_in_einer_werkstatt.png",
+    bild: "https://r2.kuwezu.de/cdn-cgi/image/width=1600,fit=cover,quality=78,format=auto/kunden/242/1784402808924-lkw_reparatur_in_einer_werkstatt.png",
+    bildSrcset: "https://r2.kuwezu.de/cdn-cgi/image/width=768,fit=cover,quality=78,format=auto/kunden/242/1784402808924-lkw_reparatur_in_einer_werkstatt.png 768w, https://r2.kuwezu.de/cdn-cgi/image/width=1280,fit=cover,quality=78,format=auto/kunden/242/1784402808924-lkw_reparatur_in_einer_werkstatt.png 1280w, https://r2.kuwezu.de/cdn-cgi/image/width=1920,fit=cover,quality=78,format=auto/kunden/242/1784402808924-lkw_reparatur_in_einer_werkstatt.png 1920w",
+    bildSizes: "100vw",
     overlayOpacity: 0.55, /* fix — nie schwächer, nie überschreibbar */
     ueberschrift: "Autowerkstatt — professionell & zuverlässig",
     ueberschriftHighlight: "professionell & zuverlässig",
@@ -39,7 +41,9 @@ export const client = {
 
   // ── Über uns ───────────────────────────────────────────────────────────────
   ueberUns: {
-    bild: "https://r2.kuwezu.de/kunden/242/1784403283731-wohnmobile.jpg",
+    bild: "https://r2.kuwezu.de/cdn-cgi/image/width=1280,fit=cover,quality=78,format=auto/kunden/242/1784403283731-wohnmobile.jpg",
+    bildSrcset: "https://r2.kuwezu.de/cdn-cgi/image/width=640,fit=cover,quality=78,format=auto/kunden/242/1784403283731-wohnmobile.jpg 640w, https://r2.kuwezu.de/cdn-cgi/image/width=1024,fit=cover,quality=78,format=auto/kunden/242/1784403283731-wohnmobile.jpg 1024w, https://r2.kuwezu.de/cdn-cgi/image/width=1536,fit=cover,quality=78,format=auto/kunden/242/1784403283731-wohnmobile.jpg 1536w",
+    bildSizes: "(max-width: 1024px) 100vw, 50vw",
     ueberschrift: "Pöppelmann GmbH & Co. KG — Ihr Partner in Lohne (Oldenburg)",
     text1: "Test 123",
     text2: "",
@@ -54,25 +58,28 @@ export const client = {
     {
       slug: "autoglas",
       title: "Autoglas",
-      bild: "https://r2.kuwezu.de/bibliothek/Autoglas/1777829664081-autoglas_reparatur.webp",
+      bild: "https://r2.kuwezu.de/cdn-cgi/image/width=800,fit=cover,quality=78,format=auto/bibliothek/Autoglas/1777829664081-autoglas_reparatur.webp",
+      bildSrcset: "https://r2.kuwezu.de/cdn-cgi/image/width=400,fit=cover,quality=78,format=auto/bibliothek/Autoglas/1777829664081-autoglas_reparatur.webp 400w, https://r2.kuwezu.de/cdn-cgi/image/width=800,fit=cover,quality=78,format=auto/bibliothek/Autoglas/1777829664081-autoglas_reparatur.webp 800w",
       description: "Professionelle Autoglas — schnell, zuverlässig und zu fairen Preisen.",
       highlights: ["Qualität", "Zuverlässigkeit", "Faire Preise"],
     },
     {
       slug: "elektroautos",
       title: "Elektroautos",
-      bild: "https://r2.kuwezu.de/bibliothek/Elektroautos/1777878408924-leistung_elektroautos.webp",
+      bild: "https://r2.kuwezu.de/cdn-cgi/image/width=800,fit=cover,quality=78,format=auto/bibliothek/Elektroautos/1777878408924-leistung_elektroautos.webp",
+      bildSrcset: "https://r2.kuwezu.de/cdn-cgi/image/width=400,fit=cover,quality=78,format=auto/bibliothek/Elektroautos/1777878408924-leistung_elektroautos.webp 400w, https://r2.kuwezu.de/cdn-cgi/image/width=800,fit=cover,quality=78,format=auto/bibliothek/Elektroautos/1777878408924-leistung_elektroautos.webp 800w",
       description: "Professionelle Elektroautos — schnell, zuverlässig und zu fairen Preisen.",
       highlights: ["Qualität", "Zuverlässigkeit", "Faire Preise"],
     },
     {
       slug: "bremsen",
       title: "Bremsen",
-      bild: "https://r2.kuwezu.de/bibliothek/Bremsen/1777878346158-bremsen_service.webp",
+      bild: "https://r2.kuwezu.de/cdn-cgi/image/width=800,fit=cover,quality=78,format=auto/bibliothek/Bremsen/1777878346158-bremsen_service.webp",
+      bildSrcset: "https://r2.kuwezu.de/cdn-cgi/image/width=400,fit=cover,quality=78,format=auto/bibliothek/Bremsen/1777878346158-bremsen_service.webp 400w, https://r2.kuwezu.de/cdn-cgi/image/width=800,fit=cover,quality=78,format=auto/bibliothek/Bremsen/1777878346158-bremsen_service.webp 800w",
       description: "Professionelle Bremsen — schnell, zuverlässig und zu fairen Preisen.",
       highlights: ["Qualität", "Zuverlässigkeit", "Faire Preise"],
     }
-  ] as { slug: string; title: string; bild: string; description: string; highlights: string[] }[],
+  ] as { slug: string; title: string; bild: string; bildSrcset: string; description: string; highlights: string[] }[],
 
   // ── Karriere ───────────────────────────────────────────────────────────────
   // Kundenpflegbar (Stammdaten) bzw. künftig autoservice.jobs-Feed — keine
